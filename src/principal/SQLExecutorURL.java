@@ -15,9 +15,8 @@ public class SQLExecutorURL
         //dbName es CURSO
         //user sa
         //password password
-        sqlServerConnectionURL = "jdbc:sqlserver://localhost:1433;user=sa;password={password}";
-            //"jdbc:sqlserver://localhost:"+port+";databaseName="+
-                //dbName+";user="+user+";password"+pwd;
+        sqlServerConnectionURL = //"jdbc:sqlserver://localhost:1433;user=sa;password={password}";
+        "jdbc:sqlserver://localhost:"+port+";dataBaseName="+dbName+";user="+user+";password="+pwd;
     }
 
     public void abreConexion()
